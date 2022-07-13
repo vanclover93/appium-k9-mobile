@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
 
-public class Lession_14 {
+public class LaunchAppTest {
     public static void main(String[] args) {
         //Send a request into Appium server > ask to launch the app
 
