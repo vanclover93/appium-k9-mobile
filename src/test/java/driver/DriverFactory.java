@@ -41,7 +41,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         }
 
         //Implicit wait | Interval time 500ms = 0.5s => 10 = 20 lan tim kiem
-        appiumDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return appiumDriver;
     }
 }
