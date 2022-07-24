@@ -30,7 +30,7 @@ public class NarrowDownSearchingScope {
             navFormsScreenBtnElem.click();
 
             // Wait until user is on Forms screen
-            WebDriverWait wait = new WebDriverWait(appiumDriver, 10L);
+            WebDriverWait wait = new WebDriverWait(appiumDriver, 10);
             wait.until(ExpectedConditions
                     .visibilityOfElementLocated(MobileBy.AndroidUIAutomator("new UiSelector().textContains(\"Form component\")")));
 
