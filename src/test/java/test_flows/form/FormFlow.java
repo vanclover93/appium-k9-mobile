@@ -18,7 +18,7 @@ public class FormFlow extends BaseFlow {
 
     public void fillTheForm(){
         // Wait until on form screen
-        WebDriverWait wait = new WebDriverWait(appiumDriver, 10L);
+        WebDriverWait wait = new WebDriverWait(appiumDriver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(
                 MobileBy.xpath("//android.widget.TextView[contains(@text, \"Form components\")]")));
 
