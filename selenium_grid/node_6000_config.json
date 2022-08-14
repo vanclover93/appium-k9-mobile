@@ -1,11 +1,8 @@
 {
   "capabilities": [
     {
-      "version": "9",
       "maxInstances": 1,
-      "platform": "ANDROID",
-      "deviceName": "emulator1",
-      "udid": "emulator-5554"
+      "platform": "ANDROID"
     }
   ],
   "configuration": {
@@ -19,7 +16,7 @@
     "register": true,
     "registerCycle": 5000,
     "hubHost": "192.168.1.7",
-    "hubPort": 4444,
+    "hubPort": 61941,
     "hubProtocol": "http"
   }
 }
