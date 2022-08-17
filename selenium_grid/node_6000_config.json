@@ -16,7 +16,7 @@
     "register": true,
     "registerCycle": 5000,
     "hubHost": "192.168.1.7",
-    "hubPort": 61941,
+    "hubPort": 4444,
     "hubProtocol": "http"
   }
 }
