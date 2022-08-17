@@ -11,9 +11,9 @@ public class FormTest extends BaseTest {
     @Test
     @Issue("JIRA-321")
     public void testFormInput() {
-        System.out.println("--> Session ID: " + getDriver().getSessionId());
+  //      System.out.println("--> Session ID: " + getDriver().getSessionId());
 //        Assert.fail(".....");
-        Assert.assertTrue(true);
+ //       Assert.assertTrue(true);
         FormFlow formFlow = new FormFlow(getDriver());
         formFlow.gotoFormScreen();
         formFlow.fillTheForm();
